@@ -13,15 +13,17 @@ A simple Node.js script to automatically organize messy folders by sorting files
 - ❌ Skips unwanted files (like `.json`)
 
 ---
-
 ## 📁 Project Structure
+
+```
 project/
-│── exe/
-│── jpg/
-│── png/
-│── pdf/
-│── mp3/
-│── js/
-│ └── main.js
-│── package.json
-│── package-lock.json
+├── exe/
+├── jpg/
+├── png/
+├── pdf/
+├── mp3/
+├── js/
+│   └── main.js #Main Script
+├── package.json
+└── package-lock.json
+```
